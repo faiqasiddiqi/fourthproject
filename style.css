@@ -1,0 +1,122 @@
+.bt{
+    margin-left: 3px;
+    padding: 8px 15px;
+    color: crimson !important;
+    font-size: 18px;
+    text-decoration: none;
+  } 
+   .bt:hover{
+    background-color:crimson;
+    color: white !important;
+    border-radius: 40px;
+    text-decoration: none;
+  }
+
+.social{
+    padding: 10px 10px;
+    border-radius: 45px;
+    }
+    .box{
+        text-align: center;
+        background-color: white;
+        /* height: 90%; */
+        width: 98%;
+        /* margin-bottom: 40px; */
+        margin-top: 15px;
+        color: black;
+        box-shadow: 5px 10px 18px #888888;
+      }
+     #sub{
+       text-decoration: none;
+     }
+ 
+  #bg {
+      /* clip-path:circle(80% at 21% 3%); */
+      /* background-color:azure;
+      height:80%;
+      width:180%; */
+      position:absolute;
+      margin:0;
+      z-index:-1;
+  }
+  .page-container {
+          height:95vh;
+      display:flex;
+      align-items: center;
+      flex-direction:row;
+      justify-content:center;
+  }
+  .login-container {
+      margin-top:3%;
+      height:80%;
+      width:48.44%;
+      box-shadow:0px 0px 73px #050505;
+  }
+  .form-header {
+      display:block;
+      background-color:	#F0F0F0;
+      padding-top:12px;
+  }
+  .login-txt {
+      font-size:33pt;
+      width:70%;
+      margin-left:-37px;
+       padding:8px;
+      text-align:center;
+      background-color: #ffb3b3;
+      color:white;
+      clip-path:polygon(0 0,100% 0,80% 100%, 0% 100%);
+  }
+  .dark-side {
+      height:37px;
+      width:37px;
+      margin-left:-37px;
+      background-color:#ffb3b3;
+      -wekit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+      clip-path: polygon(100% 0, 0 0, 100% 100%);
+  
+  }
+  .form-body {
+      padding:4%;
+      display:flex;
+      flex-direction:column;
+  }
+  .form-body > input {
+      margin:2px;
+  }
+   input[type="text"], input[type="number"],input[type="password"] {
+      padding:3px;
+      border:none; 
+       background:transparent; 
+      box-shadow:0 0 2px #1b083d;
+       font-family:inherit; 
+      border-radius:4px;
+  } 
+   input[type="text"]:focus, input[type="number"], input[type="password"]:focus {
+          outline:#673AB7;
+          background-color: whitesmoke;
+          box-shadow: 1px 0px 2px #c61951;
+      }
+ input[type="button"]{
+    background-color:#ffb3b3;
+    color: crimson;
+    border: none;
+    border-radius: 5px;
+    font-size: 11pt;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px #1b1b1b;
+  } 
+  @media (max-width:768px){
+    .login-container{
+      
+        width:80%;
+        
+    }
+    .page-container{
+        height: 115vh;
+    }
+    .login-txt{
+        font-size: 24pt;
+    }
+}
